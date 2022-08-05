@@ -1,13 +1,45 @@
+body {
+  background-color: rgb(12, 83, 83);
+}
 h1 {
   color: rgb(50, 42, 165);
   background-color: chocolate;
   font-size: 40px;
+  text-align: center;
+}
+h2,
+h3,
+.img {
+  text-align: center;
+  color: chartreuse;
+}
+ul li p {
+  color: white;
+  background-color: red;
+  border-radius: 90px;
+}
+li > p:hover {
+  background-color: darkgreen;
+}
+div > ul {
+  list-style: none;
+  text-decoration: none;
+  height: 10px;
+  width: 150px;
+}
+div > ul li {
+  text-align: center;
+}
+div {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  width: 100%;
+  background-color: darkorchid;
+  display: flex;
+  justify-content: space-between;
 }
 p {
   background-color: chocolate;
   color: rgb(24, 8, 114);
-  font-size: 20px;
-}
-body {
-  background-color: rgb(12, 83, 83);
 }
