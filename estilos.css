@@ -1,5 +1,6 @@
 body {
   background-color: rgb(56, 56, 56);
+  font-family: sans-serif;
 }
 h1,
 h2,
@@ -18,20 +19,21 @@ ul li p {
 li > p:hover {
   background-color: darkgreen;
 }
-div > ul {
+.inicio > ul {
   list-style: none;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
 }
-div > ul li {
+.inicio > ul li,
+.img {
   text-align: center;
 }
 li,
 li p {
   padding: 6px;
 }
-div {
+.inicio {
   width: 100%;
   background-color: rgb(127, 121, 129, 0.5);
 }
