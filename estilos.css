@@ -1,22 +1,19 @@
 body {
-  background-color: rgb(12, 83, 83);
+  background-color: rgb(56, 56, 56);
 }
-h1 {
+h1,
+h2,
+h3 {
   color: rgb(50, 42, 165);
-  background-color: chocolate;
+  background-color: rgb(139, 139, 139);
   font-size: 40px;
   text-align: center;
 }
-h2,
-h3,
-.img {
-  text-align: center;
-  color: chartreuse;
-}
+
 ul li p {
-  color: white;
   background-color: red;
   border-radius: 90px;
+  padding: 6px;
 }
 li > p:hover {
   background-color: darkgreen;
@@ -24,22 +21,22 @@ li > p:hover {
 div > ul {
   list-style: none;
   text-decoration: none;
-  height: 10px;
-  width: 150px;
+  display: flex;
+  justify-content: space-between;
 }
 div > ul li {
   text-align: center;
 }
+li,
+li p {
+  padding: 6px;
+}
 div {
-  margin: 0;
-  padding: 0;
-  height: 70px;
   width: 100%;
-  background-color: darkorchid;
-  display: flex;
-  justify-content: space-between;
+  background-color: rgb(127, 121, 129, 0.5);
 }
 p {
-  background-color: chocolate;
-  color: rgb(24, 8, 114);
+  background-color: rgb(105, 0, 0);
+  color: white;
+  font-size: 20px;
 }
